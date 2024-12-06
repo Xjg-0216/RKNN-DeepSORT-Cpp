@@ -18,7 +18,7 @@ set(CMAKE_BUILD_WITH_INSTALL_RPATH TRUE)
 set(CMAKE_INSTALL_RPATH "${CMAKE_INSTALL_PREFIX}/lib")
 
 set(RKNN_RT_LIB ${CMAKE_SOURCE_DIR}/include/lib/librknnrt.so)
-set(RGA_LIB ${CMAKE_SOURCE_DIR}/include/lib/librga.so)
+set(RGA_LIB ${CMAKE_SOURCE_DIR}/include/lib/librga.a)
 
 find_package(OpenCV REQUIRED)
 

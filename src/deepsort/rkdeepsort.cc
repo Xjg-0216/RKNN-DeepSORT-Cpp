@@ -10,10 +10,10 @@ rkDeepSort::rkDeepSort(const std::string &model_path)
 {
     this->model_path = model_path;
     this->featureDim = 512;
-    this->imgShape = cv::Size(64, 128);
-    // this->imgShape = cv::Size(128, 256);
+    // this->imgShape = cv::Size(64, 128);
+    this->imgShape = cv::Size(256, 512);
     this->maxBudget = 100;
-    this->maxCosineDist = 0.2;
+    this->maxCosineDist = 0.4;
     init();
 }
 
